@@ -1,0 +1,2159 @@
+fileFormatVersion: 2
+guid: 15b2d2faaecad4bfb9edc6585d94f509
+timeCreated: 1475049406
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: knight-front-arm1
+    21300002: knight-front-arm2
+    21300004: soldier-back-arm
+    21300006: soldier-front-arm1
+    21300008: soldier-front-arm2
+    21300010: peasant-back-arm-red
+    21300012: peasant-front-arm1-red
+    21300014: peasant-front-arm2-red
+    21300016: priest-back-arm-red
+    21300018: priest-front-arm1-red
+    21300020: priest-front-arm2-red
+    21300022: merchant-back-arm-red
+    21300024: merchant-front-arm1-red
+    21300026: merchant-front-arm2-red
+    21300028: knight-body-red
+    21300030: knight-body-blue
+    21300032: knight-body-green
+    21300034: knight-body-orange
+    21300036: knight-body-yellow
+    21300038: knight-body-white
+    21300040: knight-body-black
+    21300042: priest-feet
+    21300044: knight-back-arm
+    21300046: knight-leg1
+    21300048: knight-leg2
+    21300050: peasant-leg1
+    21300052: peasant-leg2
+    21300054: peasant-back-arm-blue
+    21300056: peasant-front-arm1-blue
+    21300058: peasant-front-arm2-blue
+    21300060: priest-back-arm-blue
+    21300062: priest-front-arm1-blue
+    21300064: priest-front-arm2-blue
+    21300066: merchant-back-arm-blue
+    21300068: merchant-front-arm1-blue
+    21300070: merchant-front-arm2-blue
+    21300072: soldier-body-red
+    21300074: soldier-body-blue
+    21300076: soldier-body-green
+    21300078: soldier-body-orange
+    21300080: soldier-body-yellow
+    21300082: soldier-body-white
+    21300084: soldier-body-black
+    21300086: head-light-yellow
+    21300088: head-light-pink
+    21300090: head-medium
+    21300092: head-deep
+    21300094: head-dark
+    21300096: peasant-back-arm-green
+    21300098: peasant-front-arm1-green
+    21300100: peasant-front-arm2-green
+    21300102: priest-back-arm-green
+    21300104: priest-front-arm1-green
+    21300106: priest-front-arm2-green
+    21300108: merchant-back-arm-green
+    21300110: merchant-front-arm1-green
+    21300112: merchant-front-arm2-green
+    21300114: thief-body-red
+    21300116: thief-body-blue
+    21300118: thief-body-green
+    21300120: thief-body-orange
+    21300122: thief-body-yellow
+    21300124: thief-body-white
+    21300126: thief-body-black
+    21300128: arrow
+    21300130: katana
+    21300132: polearm
+    21300134: spear
+    21300136: peasant-back-arm-orange
+    21300138: peasant-front-arm1-orange
+    21300140: peasant-front-arm2-orange
+    21300142: priest-back-arm-orange
+    21300144: priest-front-arm1-orange
+    21300146: priest-front-arm2-orange
+    21300148: merchant-back-arm-orange
+    21300150: merchant-front-arm1-orange
+    21300152: merchant-front-arm2-orange
+    21300154: priest-body-red
+    21300156: priest-body-blue
+    21300158: priest-body-green
+    21300160: priest-body-orange
+    21300162: priest-body-yellow
+    21300164: priest-body-white
+    21300166: priest-body-black
+    21300168: mace
+    21300170: rod
+    21300172: staff
+    21300174: sword
+    21300176: peasant-back-arm-yellow
+    21300178: peasant-front-arm1-yellow
+    21300180: peasant-front-arm2-yellow
+    21300182: priest-back-arm-yellow
+    21300184: priest-front-arm1-yellow
+    21300186: priest-front-arm2-yellow
+    21300188: merchant-back-arm-yellow
+    21300190: merchant-front-arm1-yellow
+    21300192: merchant-front-arm2-yellow
+    21300194: peasant-back-arm-white
+    21300196: peasant-front-arm1-white
+    21300198: peasant-front-arm2-white
+    21300200: priest-back-arm-white
+    21300202: priest-front-arm1-white
+    21300204: priest-front-arm2-white
+    21300206: merchant-back-arm-white
+    21300208: merchant-front-arm1-white
+    21300210: merchant-front-arm2-white
+    21300212: peasant-body-red
+    21300214: peasant-body-blue
+    21300216: peasant-body-green
+    21300218: peasant-body-orange
+    21300220: peasant-body-yellow
+    21300222: peasant-body-white
+    21300224: peasant-body-black
+    21300226: bow
+    21300228: shield
+    21300230: axe
+    21300232: peasant-back-arm-black
+    21300234: peasant-front-arm1-black
+    21300236: peasant-front-arm2-black
+    21300238: priest-back-arm-black
+    21300240: priest-front-arm1-black
+    21300242: priest-front-arm2-black
+    21300244: merchant-back-arm-black
+    21300246: merchant-front-arm1-black
+    21300248: merchant-front-arm2-black
+    21300250: merchant-body-red
+    21300252: merchant-body-blue
+    21300254: merchant-body-green
+    21300256: merchant-body-orange
+    21300258: merchant-body-yellow
+    21300260: merchant-body-white
+    21300262: merchant-body-black
+    21300264: bukler
+    21300266: dagger
+    21300268: chain-hood
+    21300270: hood
+    21300272: hat-red
+    21300274: hat-blue
+    21300276: hat-green
+    21300278: hat-orange
+    21300280: hat-yellow
+    21300282: hat-white
+    21300284: hat-black
+    21300286: helmet-red
+    21300288: helmet-blue
+    21300290: helmet-green
+    21300292: helmet-orange
+    21300294: helmet-yellow
+    21300296: helmet-white
+    21300298: helmet-black
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: knight-front-arm1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 677
+        width: 27
+        height: 79
+      alignment: 9
+      pivot: {x: 0.47071755, y: 0.8803031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: knight-front-arm2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 698
+        width: 46
+        height: 58
+      alignment: 9
+      pivot: {x: 0.7062512, y: 0.8407898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: soldier-back-arm
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 679
+        width: 17
+        height: 74
+      alignment: 9
+      pivot: {x: 0.8, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: soldier-front-arm1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 676
+        width: 14
+        height: 77
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: soldier-front-arm2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 698
+        width: 40
+        height: 55
+      alignment: 9
+      pivot: {x: 0.7668377, y: 0.93843997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-back-arm-red
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 680
+        width: 16
+        height: 73
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm1-red
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 676
+        width: 15
+        height: 77
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm2-red
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 698
+        width: 40
+        height: 56
+      alignment: 9
+      pivot: {x: 0.73, y: 0.92}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-back-arm-red
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 681
+        width: 20
+        height: 72
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm1-red
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 677
+        width: 19
+        height: 76
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm2-red
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 698
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.73, y: 0.94}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-back-arm-red
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 680
+        width: 17
+        height: 73
+      alignment: 9
+      pivot: {x: 0.75, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm1-red
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 676
+        width: 20
+        height: 77
+      alignment: 9
+      pivot: {x: 0.22, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm2-red
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 698
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.7, y: 0.93}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: knight-body-red
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 676
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: knight-body-blue
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 676
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: knight-body-green
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 676
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: knight-body-orange
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 676
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: knight-body-yellow
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 676
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: knight-body-white
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 676
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: knight-body-black
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 676
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-feet
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 679
+        width: 14
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: knight-back-arm
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 591
+        width: 23
+        height: 73
+      alignment: 9
+      pivot: {x: 0.6203133, y: 0.8953155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: knight-leg1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 593
+        width: 18
+        height: 70
+      alignment: 9
+      pivot: {x: 0.43411425, y: 0.9687308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: knight-leg2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 594
+        width: 35
+        height: 69
+      alignment: 9
+      pivot: {x: 0.2176324, y: 0.9697947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-leg1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 593
+        width: 17
+        height: 70
+      alignment: 9
+      pivot: {x: 0.4069851, y: 0.9687308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-leg2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 593
+        width: 37
+        height: 70
+      alignment: 9
+      pivot: {x: 0.22892718, y: 0.9687308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-back-arm-blue
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 592
+        width: 16
+        height: 73
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm1-blue
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 588
+        width: 15
+        height: 77
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm2-blue
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 609
+        width: 40
+        height: 56
+      alignment: 9
+      pivot: {x: 0.73, y: 0.92}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-back-arm-blue
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 592
+        width: 20
+        height: 72
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm1-blue
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 588
+        width: 19
+        height: 76
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm2-blue
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 610
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.73, y: 0.94}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-back-arm-blue
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 592
+        width: 17
+        height: 73
+      alignment: 9
+      pivot: {x: 0.75, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm1-blue
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 588
+        width: 20
+        height: 77
+      alignment: 9
+      pivot: {x: 0.22, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm2-blue
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 610
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.7, y: 0.93}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: soldier-body-red
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 583
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: soldier-body-blue
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 583
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: soldier-body-green
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 583
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: soldier-body-orange
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 583
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: soldier-body-yellow
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 583
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: soldier-body-white
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 583
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: soldier-body-black
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 583
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: head-light-yellow
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 538
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: head-light-pink
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 538
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: head-medium
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 538
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: head-deep
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 538
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: head-dark
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 538
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-back-arm-green
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 503
+        width: 16
+        height: 73
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm1-green
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 499
+        width: 15
+        height: 77
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm2-green
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 521
+        width: 40
+        height: 56
+      alignment: 9
+      pivot: {x: 0.73, y: 0.92}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-back-arm-green
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 504
+        width: 20
+        height: 72
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm1-green
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 500
+        width: 19
+        height: 76
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm2-green
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 521
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.73, y: 0.94}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-back-arm-green
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 503
+        width: 17
+        height: 73
+      alignment: 9
+      pivot: {x: 0.75, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm1-green
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 499
+        width: 20
+        height: 77
+      alignment: 9
+      pivot: {x: 0.22, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm2-green
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 521
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.7, y: 0.93}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: thief-body-red
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 456
+        width: 43
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: thief-body-blue
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 456
+        width: 43
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: thief-body-green
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 456
+        width: 43
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: thief-body-orange
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 456
+        width: 43
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: thief-body-yellow
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 456
+        width: 43
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: thief-body-white
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 456
+        width: 43
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: thief-body-black
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 456
+        width: 43
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: arrow
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 396
+        width: 16
+        height: 108
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.37920946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: katana
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 395
+        width: 18
+        height: 124
+      alignment: 9
+      pivot: {x: 0.47803837, y: 0.19076169}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: polearm
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 395
+        width: 45
+        height: 125
+      alignment: 9
+      pivot: {x: 0.8162523, y: 0.21537353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spear
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 395
+        width: 26
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-back-arm-orange
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 415
+        width: 16
+        height: 73
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm1-orange
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 411
+        width: 15
+        height: 77
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm2-orange
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 432
+        width: 40
+        height: 56
+      alignment: 9
+      pivot: {x: 0.73, y: 0.92}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-back-arm-orange
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 415
+        width: 20
+        height: 72
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm1-orange
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 411
+        width: 19
+        height: 76
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm2-orange
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 433
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.73, y: 0.94}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-back-arm-orange
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 415
+        width: 17
+        height: 73
+      alignment: 9
+      pivot: {x: 0.75, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm1-orange
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 411
+        width: 20
+        height: 77
+      alignment: 9
+      pivot: {x: 0.22, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm2-orange
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 433
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.7, y: 0.93}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-body-red
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 291
+        width: 55
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-body-blue
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 291
+        width: 55
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-body-green
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 291
+        width: 55
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-body-orange
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 291
+        width: 55
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-body-yellow
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 291
+        width: 55
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-body-white
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 291
+        width: 55
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-body-black
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 291
+        width: 55
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mace
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 269
+        width: 27
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5292827, y: 0.391397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: rod
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 269
+        width: 26
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: staff
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 269
+        width: 46
+        height: 105
+      alignment: 9
+      pivot: {x: 0.414062, y: 0.3004601}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sword
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 269
+        width: 38
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14860903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-back-arm-yellow
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 326
+        width: 16
+        height: 73
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm1-yellow
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 322
+        width: 15
+        height: 77
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm2-yellow
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 344
+        width: 40
+        height: 56
+      alignment: 9
+      pivot: {x: 0.73, y: 0.92}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-back-arm-yellow
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 327
+        width: 20
+        height: 72
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm1-yellow
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 323
+        width: 19
+        height: 76
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm2-yellow
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 344
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.73, y: 0.94}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-back-arm-yellow
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 326
+        width: 17
+        height: 73
+      alignment: 9
+      pivot: {x: 0.75, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm1-yellow
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 322
+        width: 20
+        height: 77
+      alignment: 9
+      pivot: {x: 0.22, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm2-yellow
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 344
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.7, y: 0.93}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-back-arm-white
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 238
+        width: 16
+        height: 73
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm1-white
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 234
+        width: 15
+        height: 77
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm2-white
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 255
+        width: 40
+        height: 56
+      alignment: 9
+      pivot: {x: 0.73, y: 0.92}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-back-arm-white
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 238
+        width: 20
+        height: 72
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm1-white
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 234
+        width: 19
+        height: 76
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm2-white
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 256
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.73, y: 0.94}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-back-arm-white
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 238
+        width: 17
+        height: 73
+      alignment: 9
+      pivot: {x: 0.75, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm1-white
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 234
+        width: 20
+        height: 77
+      alignment: 9
+      pivot: {x: 0.22, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm2-white
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 255
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.7, y: 0.93}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-body-red
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 203
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-body-blue
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 203
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-body-green
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 203
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-body-orange
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 203
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-body-yellow
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 203
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-body-white
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 203
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-body-black
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 203
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bow
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 158
+        width: 42
+        height: 93
+      alignment: 9
+      pivot: {x: 0.12350954, y: 0.4489917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shield
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 158
+        width: 53
+        height: 66
+      alignment: 9
+      pivot: {x: 0.49254134, y: 0.67968845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: axe
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 158
+        width: 36
+        height: 69
+      alignment: 9
+      pivot: {x: 0.7635434, y: 0.21353967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-back-arm-black
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 149
+        width: 16
+        height: 73
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm1-black
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 145
+        width: 15
+        height: 77
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: peasant-front-arm2-black
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 167
+        width: 40
+        height: 56
+      alignment: 9
+      pivot: {x: 0.73, y: 0.92}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-back-arm-black
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 150
+        width: 20
+        height: 72
+      alignment: 9
+      pivot: {x: 0.85, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm1-black
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 146
+        width: 19
+        height: 76
+      alignment: 9
+      pivot: {x: 0.2, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: priest-front-arm2-black
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 167
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.73, y: 0.94}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-back-arm-black
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 149
+        width: 17
+        height: 73
+      alignment: 9
+      pivot: {x: 0.75, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm1-black
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 145
+        width: 20
+        height: 77
+      alignment: 9
+      pivot: {x: 0.22, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-front-arm2-black
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 167
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.7, y: 0.93}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-body-red
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 96
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-body-blue
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 96
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-body-green
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 96
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-body-orange
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 96
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-body-yellow
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 96
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-body-white
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 96
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: merchant-body-black
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 96
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bukler
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 81
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dagger
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 77
+        width: 21
+        height: 59
+      alignment: 9
+      pivot: {x: 0.518825, y: 0.13818657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chain-hood
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 77
+        width: 35
+        height: 60
+      alignment: 9
+      pivot: {x: 0.43223268, y: 0.34846255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hood
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 84
+        width: 43
+        height: 53
+      alignment: 9
+      pivot: {x: 0.43564767, y: 0.2986135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat-red
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 23
+        width: 47
+        height: 53
+      alignment: 9
+      pivot: {x: 0.2897274, y: 0.24640203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat-blue
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 23
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat-green
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 23
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat-orange
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 23
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat-yellow
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 23
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat-white
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 23
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat-black
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 23
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: helmet-red
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 20
+        width: 49
+        height: 45
+      alignment: 9
+      pivot: {x: 0.3, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: helmet-blue
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 20
+        width: 49
+        height: 45
+      alignment: 9
+      pivot: {x: 0.3, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: helmet-green
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 20
+        width: 49
+        height: 45
+      alignment: 9
+      pivot: {x: 0.3, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: helmet-orange
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 20
+        width: 49
+        height: 45
+      alignment: 9
+      pivot: {x: 0.3, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: helmet-yellow
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 20
+        width: 49
+        height: 45
+      alignment: 9
+      pivot: {x: 0.3, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: helmet-white
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 20
+        width: 49
+        height: 45
+      alignment: 9
+      pivot: {x: 0.3, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: helmet-black
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 20
+        width: 49
+        height: 45
+      alignment: 9
+      pivot: {x: 0.3, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
