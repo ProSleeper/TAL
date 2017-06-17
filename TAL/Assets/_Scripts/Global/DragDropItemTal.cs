@@ -19,10 +19,6 @@ public class SpriteInfo
 [AddComponentMenu("NGUI/Examples/Drag and Drop Item (Example)")]
 public class DragDropItemTal : UIDragDropItem
 {
-    /// <summary>
-    /// Prefab object that will be instantiated on the DragDropSurface if it receives the OnDrop event.
-    /// </summary>
-    /// 
     UI2DSprite MySprite = null;
     UIWidget MyWidget = null;
     public Sprite Compact = null;
@@ -42,11 +38,13 @@ public class DragDropItemTal : UIDragDropItem
        base.Start();
     }
 
+    protected override void OnPress(bool isPressed)
+    {
+        ItemManager.Instance.Description(this.gameObject.GetComponent<BaseItem>());
+        base.OnPress(isPressed);
+    }
 
-    /// <summary>
-    /// Drop a 3D game object onto the surface.
-    /// </summary>
-
+    //추후 다른 방법으로 바꿔야함 모든 아이템에 적용할 수 있는 방법으로!
     protected override void OnDragDropStart()
     {
         PrevParent = this.transform.parent;
@@ -67,8 +65,7 @@ public class DragDropItemTal : UIDragDropItem
     protected override void OnDragDropMove(Vector2 delta)
     {
         mTrans.localPosition += mTrans.InverseTransformDirection((Vector3)delta);
-        GameObject surface =  UICamera.hoveredObject;
-        Debug.Log(surface.name);
+        GameObject surface = UICamera.hoveredObject;
         if (surface != null)
         {
             ExampleDragDropSurface dds = surface.GetComponent<ExampleDragDropSurface>();
@@ -80,7 +77,7 @@ public class DragDropItemTal : UIDragDropItem
                 {
                     ChangeSprite(Detail, DetailSize);
                 }
-                else if (dds.gameObject.name.Equals("Inventory") || dds.gameObject.name.Equals("Blank"))
+                else if (dds.gameObject.name.Equals("BackGround") || dds.gameObject.name.Contains("Blank"))
                 {
                     ChangeSprite(Compact, CompactSize);
                 }
@@ -100,22 +97,38 @@ public class DragDropItemTal : UIDragDropItem
             if (dds != null)
             {
                 this.transform.SetParent(dds.transform);
-                if (dds.gameObject.name.Equals("Blank"))
+                if (dds.gameObject.name.Contains("Blank"))
                 {
                     this.transform.localPosition = Vector3.zero;
                 }
+                else if (dds.gameObject.name.Contains("BackGround"))
+                {
+                    RestoreItem();
+                }
+            }
+            else if (surface.GetComponent<BaseItem>() != null)
+            {
+                base.OnDragDropRelease(surface);
             }
             else
             {
-                this.transform.SetParent(PrevParent);
-                this.transform.localPosition = PrevPosition;
-                ChangeSprite(PrevSpriteInfo.sprite, PrevSpriteInfo.size);
+                RestoreItem();
             }
         }
         this.GetComponent<Collider>().enabled = true;
-        //base.OnDragDropRelease(surface);
     }
+    
+    //void IsAllowItem()
+    //{
 
+    //}
+
+    void RestoreItem()
+    {
+        this.transform.SetParent(PrevParent);
+        this.transform.localPosition = PrevPosition;
+        ChangeSprite(PrevSpriteInfo.sprite, PrevSpriteInfo.size);
+    }
 
     void ChangeSprite(Sprite pSprite, int pObject)
     {
