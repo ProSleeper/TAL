@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/_Scenes/MercenaryEmployment.unity
-  isLoaded: 1
-  isActive: 1

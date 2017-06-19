@@ -215,10 +215,14 @@
     <Compile Include="Assets\Datas\NGUI\Scripts\UI\UITexture.cs" />
     <Compile Include="Assets\Datas\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\Datas\NGUI\Scripts\UI\UIViewport.cs" />
+    <Compile Include="Assets\_Scripts\BaseObject.cs" />
+    <Compile Include="Assets\_Scripts\Character\Actor.cs" />
     <Compile Include="Assets\_Scripts\Global\DragDropItemTal.cs" />
     <Compile Include="Assets\_Scripts\Item\AttackItem.cs" />
     <Compile Include="Assets\_Scripts\Item\BaseItem.cs" />
     <Compile Include="Assets\_Scripts\Item\DefenceItem.cs" />
+    <Compile Include="Assets\_Scripts\Manager\ActorManager.cs" />
+    <Compile Include="Assets\_Scripts\Manager\InventoryManager.cs" />
     <Compile Include="Assets\_Scripts\Manager\ItemManager.cs" />
     <Compile Include="Assets\_Scripts\Manager\MonoSingleton.cs" />
     <Compile Include="Assets\_Scripts\Manager\UIManager.cs" />

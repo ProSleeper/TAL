@@ -19,23 +19,33 @@ public class SpriteInfo
 [AddComponentMenu("NGUI/Examples/Drag and Drop Item (Example)")]
 public class DragDropItemTal : UIDragDropItem
 {
+    const int ClickItemDepth = 10;
+
     UI2DSprite MySprite = null;
     UIWidget MyWidget = null;
     public Sprite Compact = null;
     public Sprite Detail = null;
     public int CompactSize = 0;
     public int DetailSize = 0;
+
+    int PrevDepth = 0;
     Transform PrevParent = null;
     Vector3 PrevPosition = Vector3.zero;
     SpriteInfo PrevSpriteInfo = new SpriteInfo();
     Camera MyUICamera = null;
 
+
+    //뎁스판단을 어떻게 할지 고민한 결과..
+    //뎁스 판단은 Detail에서만 한다. 
+    //그러므로 Detail에 있는 
+    //모든 아이템끼리(그래봐야 몇개 안될듯) 뎁스 판단 후
+    //제일 높은 뎁스 보다 +1을 해주는 방향으로 해보자
     protected override void Start()
     {
-       MySprite = this.GetComponent<UI2DSprite>();
-       MyWidget = this.GetComponent<UIWidget>();
-       MyUICamera = GameObject.Find("Camera").GetComponent<Camera>();
-       base.Start();
+        MySprite = this.GetComponent<UI2DSprite>();
+        MyWidget = this.GetComponent<UIWidget>();
+        MyUICamera = GameObject.Find("UICamera").GetComponent<Camera>();
+        base.Start();
     }
 
     protected override void OnPress(bool isPressed)
@@ -47,6 +57,7 @@ public class DragDropItemTal : UIDragDropItem
     //추후 다른 방법으로 바꿔야함 모든 아이템에 적용할 수 있는 방법으로!
     protected override void OnDragDropStart()
     {
+        
         PrevParent = this.transform.parent;
         PrevPosition = this.transform.localPosition;
         PrevSpriteInfo.sprite = MySprite.sprite2D;
@@ -59,6 +70,8 @@ public class DragDropItemTal : UIDragDropItem
         {
             PrevSpriteInfo.size = 200;
         }
+
+        
         base.OnDragDropStart();
     }
 
@@ -115,9 +128,10 @@ public class DragDropItemTal : UIDragDropItem
                 RestoreItem();
             }
         }
+        
         this.GetComponent<Collider>().enabled = true;
     }
-    
+
     //void IsAllowItem()
     //{
 

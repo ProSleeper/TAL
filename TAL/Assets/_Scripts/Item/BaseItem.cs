@@ -2,37 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseItem : MonoBehaviour 
+public class BaseItem : BaseObject
 {
+	const float MOVETIME = 0.5f;
+
     protected string ItemName = string.Empty;
-    protected float AttackPower = 0;
-    protected float DefencePower = 0;
 
-    public float AP
+	bool IsMove = false;
+	float dTime = 0f;
+	Vector3 StartPos = Vector3.zero;
+	Vector3 EndPos = Vector3.zero;
+
+	private void Awake()
     {
-        get
-        {
-            return AttackPower;
-        }
-        set
-        {
-            AttackPower = value;
-        }
+        ObjectType = OBJECTTYPE.OT_ITEM;
     }
 
-    public float DP
-    {
-        get
-        {
-            return DefencePower;
-        }
-        set
-        {
-            DefencePower = value;
-        }
-    }
+	private void Update()
+	{
+		if (!IsMove) return;
 
-    public string NAME
+		dTime += Time.deltaTime;
+		this.transform.localPosition = Vector3.Lerp(StartPos, EndPos, dTime / MOVETIME);
+		if (dTime > MOVETIME)
+		{
+			IsMove = false;
+		}
+	}
+
+	public string NAME
     {
         get
         {
@@ -48,4 +46,11 @@ public class BaseItem : MonoBehaviour
     {
         ItemManager.Instance.Description(this);
     }
+
+	public void LerfMove(Vector3 pStart, Vector3 pEnd)
+	{
+		StartPos = pStart;
+		EndPos = pEnd;
+		IsMove = true;
+	}
 }

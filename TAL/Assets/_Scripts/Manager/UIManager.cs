@@ -21,9 +21,7 @@ public class UIManager : MonoSingleton<UIManager>
         ItemName = ItemDescLabel.FindChild("Name").GetComponent<UILabel>();
         ItemAP = ItemDescLabel.FindChild("Attack").GetComponent<UILabel>();
         ItemDP = ItemDescLabel.FindChild("Defence").GetComponent<UILabel>();
-
-        Debug.Log("실행횟수");
-
+        
         if (ItemDescLabel == null)
         {
             Debug.Log("ItemDescLabel 없음");
