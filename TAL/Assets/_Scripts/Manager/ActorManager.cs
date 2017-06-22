@@ -56,6 +56,12 @@ public class ActorManager : MonoSingleton<ActorManager>
 	{
 		//ActorManager 플레이어 생성부분 초기화하고
 		//전투씬&뷰에 캐릭터 배치
+		
+		Destroy(CurrentPlayer);
+		IsOnPlayer = false;
+		IsMovePlayer = false;
+		InventoryManager.Instance.ClearInventory();
+		WaitMercenaryManager.Instance.IsOnClick = true;
 	}
 
 	public void DropPlayer()

@@ -217,7 +217,9 @@
     <Compile Include="Assets\Datas\NGUI\Scripts\UI\UIViewport.cs" />
     <Compile Include="Assets\_Scripts\BaseObject.cs" />
     <Compile Include="Assets\_Scripts\Character\Actor.cs" />
+    <Compile Include="Assets\_Scripts\CurveTest.cs" />
     <Compile Include="Assets\_Scripts\Global\DragDropItemTal.cs" />
+    <Compile Include="Assets\_Scripts\Global\ItemDropArea.cs" />
     <Compile Include="Assets\_Scripts\Item\AttackItem.cs" />
     <Compile Include="Assets\_Scripts\Item\BaseItem.cs" />
     <Compile Include="Assets\_Scripts\Item\DefenceItem.cs" />
@@ -226,6 +228,8 @@
     <Compile Include="Assets\_Scripts\Manager\ItemManager.cs" />
     <Compile Include="Assets\_Scripts\Manager\MonoSingleton.cs" />
     <Compile Include="Assets\_Scripts\Manager\UIManager.cs" />
+    <Compile Include="Assets\_Scripts\Manager\WaitMercenaryManager.cs" />
+    <Compile Include="Assets\_Scripts\WaitMercenary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Datas\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
