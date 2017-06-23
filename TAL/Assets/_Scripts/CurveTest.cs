@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class CurveTest : MonoBehaviour 
 {
-	const float MOVETIME = 5.0f;
+	const float MOVETIME = 10.0f;
 
 	public GameObject[] sphere;
-
 
 	public Vector3 StartPos = Vector3.zero;
 	public Vector3 MiddlePos = Vector3.zero;
@@ -17,9 +16,10 @@ public class CurveTest : MonoBehaviour
 
 	void Start () 
 	{
-		StartPos = sphere[0].transform.position;
-		MiddlePos = sphere[1].transform.position;
-		EndPos = sphere[2].transform.position;
+		StartPos = this.transform.position;
+		MiddlePos = sphere[0].transform.position;
+		EndPos = sphere[1].transform.position;
+		this.GetComponentInChildren<Animator>().SetInteger("State", 1);
 	}
 
 
